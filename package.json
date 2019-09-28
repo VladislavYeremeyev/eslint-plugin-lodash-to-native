@@ -1,0 +1,33 @@
+{
+	"name": "eslint-plugin-lodash-to-native",
+	"version": "0.0.1",
+	"description": "ESLint lodash linting rules providing suggestions to using native alternatives",
+	"keywords": [
+		"eslint",
+		"eslintplugin",
+		"eslint-plugin"
+	],
+	"author": "Vladislav Yeremeyev",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha tests --recursive",
+		"prettier": "prettier --config ./.prettierrc.js --write \"./**/*.{js,jsx,json}\""
+	},
+	"dependencies": {
+		"requireindex": "~1.1.0"
+	},
+	"devDependencies": {
+		"eslint": "^3.9.1",
+		"mocha": "^3.1.2",
+		"prettier": "1.18.2"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"license": "ISC",
+	"directories": {
+		"doc": "docs",
+		"lib": "lib",
+		"test": "tests"
+	}
+}
