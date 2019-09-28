@@ -1,10 +1,8 @@
 # Rule that suggests to use native Array.prototype.map method
 
-Please describe the origin of the rule here.
-
 ## Rule Details
 
-This rule aims to...
+This rule aims to enforce using native Array.prototype.map instead of using Lodash map method, if it is possible.
 
 Examples of **incorrect** code for this rule:
 
@@ -23,10 +21,6 @@ let fn = el => el * 2;
 [1, 2, 3].map(fn);
 
 ```
-
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
 
 ## When Not To Use It
 
